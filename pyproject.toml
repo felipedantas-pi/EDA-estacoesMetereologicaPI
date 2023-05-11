@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "estacoesmetereoligicas-piaui"
+version = "0.1.0"
+description = ""
+authors = ["felipedantas-pi <tecnologo.felipedantas@gmail.com>"]
+readme = "README.md"
+packages = [{include = "estacoesmetereoligicas_piaui"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyogrio = "^0.6.0"
+pyproj = "^3.5.0"
+rtree = "^1.0.1"
+shapely = "^2.0.1"
+geopandas = "^0.13.0"
+psycopg2 = "^2.9.6"
+geoalchemy = "^0.7.2"
+pointpats = "^2.3.0"
+mapclassify = "^2.5.0"
+leafmap = "^0.20.2"
+jupyterlab = "^3.6.3"
+rasterio = "^1.3.6"
+zarr = "^2.14.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
