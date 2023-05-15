@@ -1,4 +1,6 @@
 .ipynb_checkpoints
 .venv/
+__pychace__
 estacoesmetereoligicas_piaui/
 tests/
+dados/
