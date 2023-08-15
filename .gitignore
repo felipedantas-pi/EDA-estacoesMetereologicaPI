@@ -3,4 +3,5 @@
 __pychace__
 estacoesmetereoligicas_piaui/
 tests/
-dados/
+dados/ProjetoEstacoesMeteorologicas/
+dados/inmet/
